@@ -1,0 +1,9 @@
+title: Test Detection Rule
+status: experimental
+logsource:
+  category: process_creation
+  product: windows
+detection:
+  selection:
+    CommandLine|contains: 'powershell'
+  condition: selection
