@@ -1,0 +1,13 @@
+null
+x-test-report:
+  rule_source: null
+  tested_at: 2026-03-04T06:20:29.937Z
+  log_file_path: logs/undefined.json
+  syntax_pass: false
+  syntax_errors: "[\"Missing title:\",\"Missing status:\",\"Missing logsource:\",\"Missing detection:\",\"Missing condition:\"]"
+  fidelity_score: 0
+  true_positive_likely: null
+  fidelity_notes: null
+  noise_level: Unknown
+  noisy_conditions: null
+  tuning_suggestions: null
