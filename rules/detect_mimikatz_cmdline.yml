@@ -1,0 +1,21 @@
+title: Mimikatz Execution via Command Line
+id: a1b2c3d4-e5f6-7890-abcd-ef1234567890
+status: experimental
+description: Detects execution of Mimikatz based on known command line arguments.
+author: 0xShun
+date: 2026/03/16
+tags:
+  - attack.credential_access
+  - attack.t1003.001
+logsource:
+  category: process_creation
+  product: windows
+detection:
+  selection:
+    CommandLine|contains:
+      - 'sekurlsa::logonpasswords'
+      - 'privilege::debug'
+  condition: selection
+falsepositives:
+  - Authorized red team operations
+level: critical
