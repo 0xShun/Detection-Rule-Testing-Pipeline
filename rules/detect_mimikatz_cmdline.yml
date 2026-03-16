@@ -2,7 +2,7 @@ title: Mimikatz Execution via Command Line
 id: a1b2c3d4-e5f6-7890-abcd-ef1234567890
 status: experimental
 description: Detects execution of Mimikatz based on known command line arguments.test
-author: 0xShun 
+author: Shun 
 date: 2026/03/16
 tags:
   - attack.credential_access
